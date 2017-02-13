@@ -38,6 +38,8 @@ var clyde = {
 
 // replace this comment with your four ghosts setup as objects
 
+// Step 3b: Create the Ghosts Array
+var ghosts = ['Inky', 'Blinky', 'Pinky', 'Clyde'];
 
 // Draw the screen functionality
 function drawScreen() {
