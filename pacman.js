@@ -14,9 +14,9 @@ var inky = {
 
 var blinky = {
   menu_option: '2',
-  name: 'Inky',
-  colour: 'Red',
-  character: 'Shadow',
+  name: 'Blinky',
+  colour: 'Cyan',
+  character: 'Speedy',
   edible: false
 };
 
@@ -62,6 +62,11 @@ function displayStats() {
 function displayMenu() {
   console.log('\n\nSelect Option:\n');  // each \n creates a new line
   console.log('(d) Eat Dot');
+
+  for (var index = 0; index < ghosts.length; index++) {
+    console.log()
+  }
+  console.log('(1)')
   console.log('(q) Quit');
 }
 
